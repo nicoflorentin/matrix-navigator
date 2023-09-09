@@ -10,7 +10,7 @@ function App() {
 	const [coordinates, focusedElement, move] = useMatrix(matrix)
 	const [loading, setLoading] = useState(true)
 
-	console.log(matrix)
+	console.log(focusedElement)
 
 	useEffect(() => {
 		getCards().then(res => {
@@ -26,9 +26,21 @@ function App() {
 				className="flex justify-center
 									border border-black w-[900px]"
 			>
-				{loading ? "loading" : <div>
-					{matrix.map( row => <div className="flex">{row.map(element => <Card card={element} focusedIndex={focusedElement.index}></Card>)}</div>)}
-					</div>}
+				{loading ? (
+					"loading"
+				) : (
+					<div>
+						{matrix.length !== 2
+							? matrix.map(row => (
+									<div className="flex">
+										{row.map(element => (
+											<Card card={element} focusedIndex={focusedElement.index}></Card>
+										))}
+									</div>
+							  ))
+							: null}
+					</div>
+				)}
 			</div>
 		</div>
 	)
