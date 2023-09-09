@@ -7,10 +7,10 @@ import useMatrix from "./hooks/useMatrix"
 
 function App() {
 	const [matrix, setMatrix] = useState([0, 0])
-	const [coordinates, focusedElement, move] = useMatrix(matrix)
+	const [focusedElement, move] = useMatrix(matrix)
 	const [loading, setLoading] = useState(true)
 
-	console.log(focusedElement)
+	console.log(matrix)
 
 	useEffect(() => {
 		getCards().then(res => {
@@ -24,21 +24,20 @@ function App() {
 			<NavigationButtons move={move} focusedElement={focusedElement}></NavigationButtons>
 			<div
 				className="flex justify-center
-									border border-black w-[900px]"
+									shadow-xl border border-neutral-400 rounded-2xl p-10
+									"
 			>
 				{loading ? (
 					"loading"
 				) : (
 					<div>
-						{matrix.length !== 2
-							? matrix.map(row => (
-									<div className="flex">
-										{row.map(element => (
-											<Card card={element} focusedIndex={focusedElement.index}></Card>
-										))}
-									</div>
-							  ))
-							: null}
+						{matrix.map(row => (
+							<div className="flex">
+								{row.map(element => (
+									<Card card={element} focusedIndex={focusedElement.index}></Card>
+								))}
+							</div>
+						))}
 					</div>
 				)}
 			</div>

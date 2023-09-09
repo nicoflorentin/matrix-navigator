@@ -11,7 +11,7 @@ const createSquareMatrix = arr => {
 			if (index < length) {
 				row.push({ ...arr[index], index })
 			} else {
-				row.push({ content: null, index }) // Completar con null si el índice está fuera de la longitud del array
+				break; // Salir del bucle interno si no quedan elementos en el array
 			}
 			index++
 		}

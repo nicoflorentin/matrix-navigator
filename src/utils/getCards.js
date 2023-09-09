@@ -35,16 +35,17 @@ const cards = [
 			alert(this.content)
 		},
 	},
+	{
+		content: "Siete",
+		action: function () {
+			alert(this.content)
+		},
+	},
 ]
 
 const getCards = async () => {
-	const response = await new Promise(resolve => {
-		setTimeout(() => {
-			resolve(cards)
-		}, 1000)
-	})
-
-	return response
+  await new Promise(resolve => setTimeout(resolve, 1000));
+  return cards;
 }
 
-export default getCards
+export default getCards;
