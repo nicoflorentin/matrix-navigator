@@ -1,12 +1,14 @@
 import React from "react"
 
-const Card = ({ card, index, focusedIndex }) => {
+const Card = ({ card, focusedIndex }) => {
+	console.log(card)
+
 	return (
 		<div
 			className={
-								`w-1/4 h-52 m-2
+				`w-28 h-52 m-2
 								flex flex-col justify-center
-								border border-black rounded-2xl` + (focusedIndex === index ? " bg-red-500" : "")
+								border border-black rounded-2xl` + (focusedIndex === card.index ? " bg-red-500" : "")
 			}
 			key={card.content}
 		>

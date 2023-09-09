@@ -1,36 +1,36 @@
 const cards = [
 	{
-		content: "card 1",
+		content: "Nicolás",
 		action: function () {
 			alert(this.content)
 		},
 	},
 	{
-		content: "card 2",
+		content: "Nata",
 		action: function () {
 			alert(this.content)
 		},
 	},
 	{
-		content: "card 3",
+		content: "Diego",
 		action: function () {
 			alert(this.content)
 		},
 	},
 	{
-		content: "card 4",
+		content: "Paula",
 		action: function () {
 			alert(this.content)
 		},
 	},
 	{
-		content: "card 5",
+		content: "Yorke",
 		action: function () {
 			alert(this.content)
 		},
 	},
 	{
-		content: "card 6",
+		content: "Moreno",
 		action: function () {
 			alert(this.content)
 		},
