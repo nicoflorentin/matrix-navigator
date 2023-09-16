@@ -1,51 +1,81 @@
 const cards = [
 	{
-		content: "Uno",
+		id: 1,
+		name: "Alice",
+		activity: "Reading a book",
 		action: function () {
-			alert(this.content)
+			alert(`Name: ${this.name}\nActivity: ${this.activity}`);
 		},
 	},
 	{
-		content: "Dos",
+		id: 2,
+		name: "Bob",
+		activity: "Playing guitar",
 		action: function () {
-			alert(this.content)
+			alert(`Name: ${this.name}\nActivity: ${this.activity}`);
 		},
 	},
 	{
-		content: "Tres",
+		id: 3,
+		name: "Charlie",
+		activity: "Cooking dinner",
 		action: function () {
-			alert(this.content)
+			alert(`Name: ${this.name}\nActivity: ${this.activity}`);
 		},
 	},
 	{
-		content: "Cuatro",
+		id: 4,
+		name: "David",
+		activity: "Running in the park",
 		action: function () {
-			alert(this.content)
+			alert(`Name: ${this.name}\nActivity: ${this.activity}`);
 		},
 	},
 	{
-		content: "Cinco",
+		id: 5,
+		name: "Eve",
+		activity: "Painting a picture",
 		action: function () {
-			alert(this.content)
+			alert(`Name: ${this.name}\nActivity: ${this.activity}`);
 		},
 	},
 	{
-		content: "Seis",
+		id: 6,
+		name: "Frank",
+		activity: "Watching a movie",
 		action: function () {
-			alert(this.content)
+			alert(`Name: ${this.name}\nActivity: ${this.activity}`);
 		},
 	},
 	{
-		content: "Siete",
+		id: 7,
+		name: "Grace",
+		activity: "Hiking in the mountains",
 		action: function () {
-			alert(this.content)
+			alert(`Name: ${this.name}\nActivity: ${this.activity}`);
 		},
 	},
-]
+	{
+		id: 8,
+		name: "Hannah",
+		activity: "Playing chess",
+		action: function () {
+			alert(`Name: ${this.name}\nActivity: ${this.activity}`);
+		},
+	},
+	{
+		id: 9,
+		name: "Isaac",
+		activity: "Working on a computer",
+		action: function () {
+			alert(`Name: ${this.name}\nActivity: ${this.activity}`);
+		},
+	},
+];
 
 const getCards = async () => {
-  await new Promise(resolve => setTimeout(resolve, 1000));
-  return cards;
+	await new Promise(resolve => setTimeout(resolve, 1000))
+	return cards
 }
 
-export default getCards;
+export default getCards

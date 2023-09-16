@@ -2,8 +2,8 @@ import React from "react"
 
 const Card = ({ card, focusedIndex }) => {
 
-	const activeCardStyle = "-translate-y-1 scale-110  duration-200 bg-blue-300 shadow-xl"
-	const inactiveCardStyle = 'bg-neutral-100 shadow-md'
+	const activeCardStyle = "-translate-y-1 scale-110  duration-200 bg-blue-600 shadow-xl text-white"
+	const inactiveCardStyle = 'bg-neutral-300 shadow-md'
 
 	return (
 		<div
@@ -14,7 +14,7 @@ const Card = ({ card, focusedIndex }) => {
 			}
 			key={card.content}
 		>
-			<p className={`text-center`}>{card.content}</p>
+			<p className={`text-center`}>{card.name}</p>
 		</div>
 	)
 }
