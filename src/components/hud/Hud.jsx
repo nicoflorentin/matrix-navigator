@@ -1,7 +1,6 @@
 import React from "react"
 
-const Hud = ({ optionsMatrix, focusedElement, focusedOption, loading }) => {
-	const [options] = optionsMatrix
+const Hud = ({ hudMatrix : [options], focusedElement, focusedOption, loading }) => {
 
 	return (
 		<div
