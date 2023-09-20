@@ -2,8 +2,6 @@ import React from "react"
 
 const NavigationButtons = ({ move, focusedOption, focusedElement }) => {
 
-	console.log(focusedOption)
-
 	return (
 		<>
 			<div className="child:text-2xl">

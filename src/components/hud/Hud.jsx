@@ -14,7 +14,7 @@ const Hud = ({ hudMatrix : [options], focusedElement, focusedOption, loading }) 
 					<p>{focusedElement?.name}</p>
 					<div className="flex flex-col">
 						{options?.map(option => (
-							<div className="flex justify-between">
+							<div key={option.displayName} className="flex justify-between">
 								<p>{option.displayName}</p>
 								{focusedOption.id === option.id ? <span>◼</span> : <span></span>}
 							</div>
