@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom"
 import Detail from "../detail/Detail"
 
 const Screen = ({ matrix, focusedElement, loading }) => {
+
 	return (
 		<div className="flex justify-center items-center h-full w-[400px]">
 			<Routes>

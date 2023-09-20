@@ -3,7 +3,7 @@ import Screen from '../screen/Screen'
 import LateralButtons from "../lateralButtons/LateralButtons"
 import NavigationButtons from "../navigationButtons/NavigationButtons"
 
-const ScreenAndHud = ({ cardMatrix, hudMatrix, focusedElement, focusedOption, loading, move, moveHud }) => {
+const ScreenAndHud = ({ screenMatrix, hudMatrix, focusedElement, focusedOption, loading, move, moveHud }) => {
 
 	return (
 		<div
@@ -14,7 +14,7 @@ const ScreenAndHud = ({ cardMatrix, hudMatrix, focusedElement, focusedOption, lo
 			>
 				<div id="" className="flex gap-2 h-[550px] w-[700px] p-3 border border-black rounded-2xl shadow-2xl">
 					<div id="screenContainer" className="border rounded-2xl p-10">
-						<Screen matrix={cardMatrix} focusedElement={focusedElement} loading={loading} />
+						<Screen matrix={screenMatrix} focusedElement={focusedElement} loading={loading} />
 					</div>
 					<div
 						id="rightPanelContainer"

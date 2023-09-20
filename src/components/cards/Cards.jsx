@@ -11,7 +11,7 @@ const Cards = ({ matrix, focusedElement, loading }) => {
 				"..."
 			) : (
 				<div>
-					{matrix.map(row => (
+					{matrix?.map(row => (
 						<div key={id++} className="flex">
 							{row.map(element => (
 								<Card key={id++} card={element} focusedIndex={focusedElement.index}></Card>

@@ -5,7 +5,7 @@ function App() {
 
 	return (
 		<>
-			<LandingConfig Children={ScreenAndHud} />
+			<LandingConfig />
 		</>
 	)
 }
