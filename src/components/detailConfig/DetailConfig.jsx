@@ -1,7 +1,4 @@
-import getLandingData from "../../utils/getCards"
-import getLandingOptions from "../../utils/getLandingOptions"
 import addDataAndOptionsMatrix from "../hoc/addDataAndOptionsMatrix"
-import ScreenAndHud from "../screenAndHud/ScreenAndHud"
 
 const DetailConfig = (props) => {
 
