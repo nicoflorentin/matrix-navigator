@@ -16,7 +16,7 @@ La aplicación consta de una serie de opciones y botones asociados. Cada botón 
 1. Como levantar el proyecto de forma local:
 
 ```bash
-git clone https://github.com/tuusuario/matrix-navigator.git
+git clone https://github.com/nicoflorentin/matrix-navigator.git
 cd matrix-navigator
 npm install
 npm run dev
