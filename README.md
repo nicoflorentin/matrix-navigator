@@ -21,4 +21,4 @@ La aplicación consta de una serie de opciones y botones asociados. Cada botón 
   npm install
   npm run dev
 
-## [Link al deploy](https://matrix-navigator.vercel.app/)
+**[Link al deploy](https://matrix-navigator.vercel.app/)**
