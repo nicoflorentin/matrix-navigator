@@ -15,10 +15,11 @@ La aplicación consta de una serie de opciones y botones asociados. Cada botón 
 ### Instrucciones de Uso
 1. Como levantar el proyecto de forma local:
 
-   ```bash
-   git clone https://github.com/tuusuario/matrix-navigator.git
-  cd matrix-navigator
-  npm install
-  npm run dev
+```bash
+git clone https://github.com/tuusuario/matrix-navigator.git
+cd matrix-navigator
+npm install
+npm run dev
+```
 
 **[Link al deploy](https://matrix-navigator.vercel.app/)**
