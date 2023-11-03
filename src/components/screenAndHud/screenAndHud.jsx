@@ -1,4 +1,4 @@
-import Hud from "../hud/Hud"
+import Hud from '../hud/Hud'
 import Screen from '../screen/Screen'
 import LateralButtons from "../lateralButtons/LateralButtons"
 import NavigationButtons from "../navigationButtons/NavigationButtons"

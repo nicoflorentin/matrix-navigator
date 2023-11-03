@@ -6,6 +6,7 @@ import useCreateMatrix from "../../hooks/useCreateMatrix"
 import { useNavigate } from "react-router-dom"
 import getLandingOptions from "../../utils/getLandingOptions"
 import addDataAndOptionsMatrix from "../hoc/addDataAndOptionsMatrix"
+import ScreenAndHud from "../screenAndHud/screenAndHud"
 
 const LandingConfig = (props) => {
 
