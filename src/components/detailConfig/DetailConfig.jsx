@@ -1,4 +1,5 @@
 import addDataAndOptionsMatrix from "../hoc/addDataAndOptionsMatrix"
+import ScreenAndHud from "../screenAndHud/screenAndHud"
 
 const DetailConfig = (props) => {
 
