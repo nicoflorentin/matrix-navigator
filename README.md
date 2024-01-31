@@ -2,6 +2,8 @@
 
 Este proyecto práctico es una aplicación web construida con React que permite navegar a través de opciones utilizando botones de navegación. La estructura y patrones de diseño implementados se basan en el aprendizaje adquirido en el libro *Learning Patterns* de Lydia Hallie y Addy Osmani.
 
+![image](https://github.com/nicoflorentin/matrix-navigator/assets/81888574/4d34d1be-d91b-4ca7-93f7-f92410c23cb1)
+
 ## Tecnologías Utilizadas
 
 - **React:** Para la construcción de la interfaz de usuario.
@@ -21,5 +23,3 @@ Este proyecto práctico es una aplicación web construida con React que permite 
 4. Inicia el servidor de desarrollo: `npm run dev`
 
 **[Link al deploy](https://matrix-navigator.vercel.app/)**
-
-![image](https://github.com/nicoflorentin/matrix-navigator/assets/81888574/4d34d1be-d91b-4ca7-93f7-f92410c23cb1)
