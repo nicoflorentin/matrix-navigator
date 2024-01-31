@@ -10,6 +10,7 @@ La aplicación presenta una serie de opciones, cada una asociada a un botón esp
 
 - **React:** Para la construcción de la interfaz de usuario.
 - **React Router (opcional):** Para manejar la navegación entre secciones mediante URL.
+- **Tailwind CSS:** Framework de estilos utilizado para facilitar el diseño y la maquetación.
 
 ## Patrones Implementados
 
@@ -24,3 +25,5 @@ La aplicación presenta una serie de opciones, cada una asociada a un botón esp
 4. Inicia el servidor de desarrollo: `npm run dev`
 
 **[Link al deploy](https://matrix-navigator.vercel.app/)**
+
+![image](https://github.com/nicoflorentin/matrix-navigator/assets/81888574/4d34d1be-d91b-4ca7-93f7-f92410c23cb1)
