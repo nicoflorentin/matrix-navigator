@@ -2,10 +2,6 @@
 
 Este proyecto práctico es una aplicación web construida con React que permite navegar a través de opciones utilizando botones de navegación. La estructura y patrones de diseño implementados se basan en el aprendizaje adquirido en el libro *Learning Patterns* de Lydia Hallie y Addy Osmani.
 
-## Descripción
-
-La aplicación presenta una serie de opciones, cada una asociada a un botón específico. Al hacer clic en uno de los botones, el contenido correspondiente a esa opción se muestra en la pantalla
-
 ## Tecnologías Utilizadas
 
 - **React:** Para la construcción de la interfaz de usuario.
